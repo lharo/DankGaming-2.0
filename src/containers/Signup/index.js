@@ -34,6 +34,7 @@ class Signup extends React.Component {
   render = () => {
     return (
       <Layout>
+  
         <div className="col-md-offset-3 col-md-6">
           <h2 className="text-center">Regístrate con tu e-mail</h2><br />
           <form className="lazyForms">

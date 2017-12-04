@@ -9,11 +9,25 @@ class Home extends React.Component {
   }
   render = () => (
     <Layout>
-      <header id="header">
-        <h1>Dank Gaming</h1>
-        <p>Gaming has never been this dank<br/>
-        Made by dank people for dank people </p>
-      </header>
+     <div class="container">
+    <div class="row">
+      <div class="col-md-12"> 
+        <div class="jumbotron">
+          <h1>DankGaming</h1>
+          <h2>De Gamers para gamers</h2>
+          <blockquote>
+          <p>DankGaming es una empresa 100% mexicana dedicada a la venta de videojuegos.</p>
+          <p>Somos un equipo de gamers apasionados por nuestro trabajo. Para nosotros lo más importante son los hermanos gamers como tú. Así
+           que nos levantamos todos los días con una sola idea en la mente: poner lo mejor del mundo de los videojuegos en tus manos.</p>
+          <p>¿Quieres enterarte sobre los juegos nuevos que vienen?, ¿Buscas averiguar cuales son los juegos más populares?</p>
+          <p>Además te ofrecemos los mejores servicios para complementar tu experiencia:</p>
+
+          <p>Atentamente: DankGaming Online Team</p>
+          </blockquote> 
+        </div>
+      </div>
+    </div>
+  </div>
     </Layout>
   )
 }
