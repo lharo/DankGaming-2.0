@@ -26,7 +26,7 @@ class Signup extends React.Component {
         this.props.history.push('/')
       })
       .catch(err => {
-        console.log(err);
+        console.log("Este es: "+err);
         this.setState({process: false, err: 'problemas de conexión'})
       })
     })
