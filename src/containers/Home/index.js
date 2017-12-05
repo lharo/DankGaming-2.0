@@ -9,10 +9,10 @@ class Home extends React.Component {
   }
   render = () => (
     <Layout>
-     <div class="container">
-    <div class="row">
-      <div class="col-md-12"> 
-        <div class="jumbotron">
+     <div className="container">
+    <div className="row">
+      <div className="col-md-12"> 
+        <div className="jumbotron">
           <h1>DankGaming</h1>
           <h2>De Gamers para gamers</h2>
           <blockquote>
